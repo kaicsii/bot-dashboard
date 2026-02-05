@@ -451,7 +451,7 @@ export default function BotRatioAnalysis() {
               tickFormatter={v => v >= 1e6 ? (v/1e6).toFixed(1)+"M" : v >= 1e3 ? (v/1e3).toFixed(0)+"k" : v} />
             <YAxis type="category" dataKey="short" tick={{ fill:"#94a3b8", fontSize: mob ? 10 : r.body }} width={r.yW} tickLine={false} axisLine={false} />
             <Tooltip content={<StackTooltip />} />
-            <Bar dataKey="cleanVal" name="正常流量" stackId="a" fill="#334155" fillOpacity={.55} radius={0} barSize={mob ? 12 : tab ? 16 : 20} />
+            <Bar dataKey="cleanVal" name="正常流量" stackId="a" fill="#c9d1dc" fillOpacity={.55} radius={0} barSize={mob ? 12 : tab ? 16 : 20} />
             <Bar dataKey="botVal" name="Bot 流量" stackId="a" fill="#ef4444" fillOpacity={.85} radius={[0,4,4,0]} barSize={mob ? 12 : tab ? 16 : 20}>
               {chartStack.map((d,i) => <Cell key={i} fill={d.color} fillOpacity={.9} />)}
             </Bar>
