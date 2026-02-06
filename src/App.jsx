@@ -580,6 +580,7 @@ export default function BotRatioAnalysis() {
       </div>
 
       {/* ════ KEY FINDINGS ════ */}
+      {/*
       <div style={{ ...mx, ...card, marginBottom: r.gap }}>
         <h2 style={{ fontSize:r.h2, fontWeight:600, color:"#fca5a5", margin:"0 0 10px 0" }}>🔍 關鍵發現</h2>
         <div style={{ display:"grid", gridTemplateColumns: mob ? "1fr" : tab ? "1fr 1fr" : "repeat(2,1fr)", gap: mob ? 8 : 10 }}>
@@ -596,6 +597,7 @@ export default function BotRatioAnalysis() {
           ))}
         </div>
       </div>
+      */}
 
       {/* ════ FOOTER ════ */}
       <div style={{ ...mx, marginTop: mob ? 10 : 14, textAlign:"center", padding:"0 4px" }}>
